@@ -49,11 +49,10 @@ The venue map uses Google Maps Embed API inside an iframe:
 You can change the venue by updating the query in the src URL.
 
 ## 📂 Project Structure
------------------|
-|├── index.html  |     # Main page
-|├── style.css   |    # Styling
-|├── script.js   |   # Functionality (countdown, RSVP, CSV export, EmailJS)
-|└── README.md   |  # Documentation
+├── index.html      # Main page
+├── style.css       # Styling
+├── script.js      # Functionality (countdown, RSVP, CSV export, EmailJS)
+ └── README.md     # Documentation
 
 ## 🛠️ Technologies Used
 	•	HTML5 for structure
