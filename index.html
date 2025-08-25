@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We're Getting Married! — Adam &Alice</title>
+  <meta name="description" content="Online wedding invitation with couple story, RSVP, countdown, schedule, gallery, and map." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <nav>
+      <div class="brandmark"><div class="ring" aria-hidden="true"></div><strong>Adam & Alice</strong></div>
+      <divdiv class="nav-links">
+        <a href="#story">Our Story</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#rsvp" id="navRSVP">RSVP</a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+      </div>
+    </nav>
+  </div>
+
+  <header class="hero" id="home" aria-label="Hero">
+  <div class="container">
+    <div class="hero-card">
+      <div class="pill">You're invited ✨</div>
+      <h1 class="names">Adam <span class="amp">💝</span> Alice</h1>
+      <p class="date">Monday, 15 December 2025 • 5:00 PM (IST) • Royal Orchid Banquet, New Delhi</p>
+      
+      <div id="countdown" class="countdown" role="timer" aria-live="polite">
+        <div class="tile"><div class="num" id="d">—</div><div class="lbl">Days</div></div>
+        <div class="tile"><div class="num" id="h">—</div><div class="lbl">Hours</div></div>
+        <div class="tile"><div class="num" id="m">—</div><div class="lbl">Minutes</div></div>
+        <div class="tile"><div class="num" id="s">—</div><div class="lbl">Seconds</div></div>
+      </div>
+
+      <div class="cta">
+        <button class="btn" id="openRSVP">RSVP Now</button>
+        <a class="btn btn-outline" href="#map">Get Directions</a>
+        <button class="btn btn-outline" id="addToCalendar">Add to Calendar</button>
+      </div>
+
+      <p class="small rsvp-note">
+        We can't wait to celebrate with you. Kindly RSVP by 30 November 2025.
+      </p>
+    </div>
+  </div>
+</header>
+
+  <section id="story">
+    <div class="container">
+      <h2 class="section-title">Our Story</h2>
+      <p class="small">From a chance meeting to forever — a few milestones from our journey.</p>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-meta">2019 — First Hello</div>
+          <div class="tl-content">We met at a tech meetup in Delhi. A shared love for coffee and code sparked something special.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-meta">2021 — Adventures</div>
+          <div class="tl-content">Weekend getaways turned into a map full of memories — mountains, beaches, and midnight parathas.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-meta">2024 — The Question</div>
+          <div class="tl-content">On a quiet rooftop under the monsoon sky, we promised each other a lifetime of laughter.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-meta">2025 — I Do</div>
+          <div class="tl-content">Now we invite you to witness the beginning of our forever. Your blessings mean the world. 💛</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="schedule">
+    <div class="container">
+      <h2 class="section-title">Wedding Schedule</h2>
+      <div class="grid grid-3">
+        <div class="card event">
+          <div class="dot" aria-hidden="true"></div>
+          <div>
+            <h3>Mehndi</h3>
+            <p class="small">Sunday, 14 Dec • 7:00 PM • Family Residence</p>
+            <p>Come for henna, music, and fun! Traditional attire encouraged.</p>
+          </div>
+        </div>
+        <div class="card event">
+          <div class="dot"></div>
+          <div>
+            <h3>Nikah Ceremony</h3>
+            <p class="small">Monday, 15 Dec • 5:00 PM • Royal Orchid Banquet</p>
+            <p>Witness our vows followed by blessings from family and friends.</p>
+          </div>
+        </div>
+        <div class="card event">
+          <div class="dot"></div>
+          <div>
+            <h3>Reception</h3>
+            <p class="small">Monday, 15 Dec • 7:30 PM • Royal Orchid Banquet</p>
+            <p>Celebrate with dinner, dance, and desserts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="container">
+      <h2 class="section-title">Gallery</h2>
+      <p class="small">Some favorite moments together.</p>
+      <div class="gallery" aria-label="Photo gallery">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop" alt="Couple holding hands at sunset" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=1200&auto=format&fit=crop" alt="Wedding decor lights" loading="lazy"/>
+        <img src="https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?q=80&w=1200&auto=format&fit=crop" alt="Coffee date" loading="lazy"/>
+        <img src="https://plus.unsplash.com/premium_photo-1661862397518-8e50332b6e97?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVubmElMjBoYW5kfGVufDB8fDB8fHww" alt="Henna hands" loading="lazy"/>
+        <img src="https://media.istockphoto.com/id/936883084/photo/go-wherever-gets-your-smile-going.webp?a=1&b=1&s=612x612&w=0&k=20&c=hdQiSXJcbAnXY2pGa0QXsuJvfEcUVx65dsIZGB7m3LI=" alt="Beach walk" loading="lazy"/>
+      </div>
+    </div>
+  </section>
+
+  <section id="map">
+    <div class="container">
+      <h2 class="section-title">Venue & Directions</h2>
+      <p class="small">Royal Orchid Banquet, New Delhi • Valet parking available</p>
+      <div class="card" style="overflow:hidden">
+        <iframe title="Google Map" src="https://www.google.com/maps?q=Royal%20Orchid%20Banquet%20Delhi&output=embed" width="100%" height="380" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal" id="rsvpModal" aria-hidden="true" role="dialog" aria-labelledby="rsvpTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3h3 id="rsvpTitle" class="section-title">RSVP</h3>
+        <button class="btn btn-outline" id="closeRSVP" aria-label="Close">Close</button>
+      </div>
+      <form id="rsvpForm" class="form">
+        <div class="row">
+          <div>
+            <label for="name">Full Name *</label>
+            <input id="name" name="name" required placeholder="Your name" />
+          </div>
+          <div>
+            <label for="email">Email *</label>
+            <input id="email" name="email" type="email" required placeholder="you@example.com" />
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <label for="phone">Phone *</label>
+            <input id="phone" name="phone" type="tel" placeholder="Numbers" />
+          </div>
+          <div>
+            <label for="attending">Attending? *</label>
+            <select id="attending" name="attending" required>
+              <option value="">Choose…</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <label for="guests">Number of Guests</label>
+            <input id="guests" name="guests" type="number" min="0" max="6" value="1" />
+          </div>
+          <div>
+            <label for="diet">Dietary Preference</label>
+            <select id="diet" name="diet">
+              <option>Veg</option>
+              <option>Non‑Veg</option>
+              <option>Vegan</option>
+              <option>Jain</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+          <div class="row">
+          <div>
+          <label for="inviteCode">Invite Code *</label>
+     <input id="inviteCode" name="inviteCode" required placeholder="Enter your code" />
+        </div>
+        </div>
+        <div>
+          <label for="message">Note</label>
+          <textarea id="message" name="message" rows="3" placeholder="Anything we should know?"></textarea>
+        </div>
+        <divdiv class="rsvp-actions">
+          <p class="notice">By submitting, you consent to us saving your RSVP for planning purposes.</p>
+          <div class="rsvp-btn-group">
+            <button type="button" class="btn btn-outline" id="exportCSV">Export CSV</button>
+            <button class="btn" type="submit">Send RSVP</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="fab">
+    <button class="btn" id="fabRSVP">💌 RSVP</button>
+    <a class="btn btn-outline" href="#map">🧭 Directions</a>
+  </div>
+
+  <footer>
+    <div class="container center-text">
+      <p>Made with 💛 for our family & friends.</p>
+      <ul>
+        <li><a href="https://portfolio-ai-theta.vercel.app/">Built by <strong>Nejamul Haque</strong></a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+      <script>
+      emailjs.init("-1DTibFH0u1dc6n2M"); // replace with your EmailJS public key
+      </script>
+  <script src="script.js"></script>
+</body>
+</html>
