@@ -66,6 +66,6 @@ You can change the venue by updating the query in the src URL.
 	•	RSVP modal form
 	•	Gallery section
 	•	Directions map
-
+ 
  ## 👨‍💻 Author
  Built with 💛 by Nejamul Haque
